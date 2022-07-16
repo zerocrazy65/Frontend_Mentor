@@ -1,0 +1,122 @@
+/* ! reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* TODO setting */
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --vary-dark-cyan: hsl(158, 38%, 19%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  --detail: "Montserrat", sans-serif;
+  --design: "Fraunces", serif;
+}
+body {
+  background-color: var(--cream);
+  font-size: 14px;
+  padding: 200px 15%;
+}
+.container_layout {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  border-radius: 1rem;
+  display: flex;
+  width: 40rem;
+  background: var(--white);
+  overflow: hidden;
+}
+.detail {
+  padding: 30px;
+}
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+.image_small {
+  display: none;
+}
+button {
+  justify-content: center;
+  display: flex;
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 15px;
+  background: var(--dark-cyan);
+  border: none;
+}
+button:hover {
+  background: var(--vary-dark-cyan);
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+
+/* ? font */
+p,
+span {
+  font-family: var(--detail);
+}
+p {
+  color: var(--dark-grayish-blue);
+  letter-spacing: 4px;
+}
+h1 {
+  font-size: 2rem;
+  margin: 25px 0 25px 0;
+  font-family: var(--design);
+  color: var(--very-dark-blue);
+}
+.detail span {
+  color: var(--dark-grayish-blue);
+  line-height: 1.6;
+}
+.price h1 {
+  color: var(--dark-cyan);
+}
+.price span {
+  margin-left: 15px;
+  text-decoration-line: line-through;
+}
+.btn span {
+  margin-left: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: var(--white);
+}
+/* *Breakpoints*/
+
+@media (max-width: 768px) {
+  body {
+    padding: 30px 5%;
+  }
+  .container {
+    border-radius: 1rem;
+    grid-template-columns: 1fr;
+    display: grid;
+    width: 40rem;
+    background: var(--white);
+    overflow: hidden;
+  }
+  .image {
+    display: none;
+  }
+  .image_small {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  h1 {
+    margin: 10px 0 10px 0;
+  }
+  .price {
+    margin: 30px 0 10px 0;
+  }
+}
