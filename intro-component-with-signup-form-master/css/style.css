@@ -1,0 +1,134 @@
+/* line 9, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-color: #ff7a7a;
+  background-image: url("/images/bg-intro-desktop.png");
+}
+
+/* line 15, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+.row {
+  padding: 40px;
+  align-items: center;
+}
+
+/* line 19, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+.l {
+  color: white;
+}
+
+/* line 21, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+.l h1 {
+  font-size: 3.3rem;
+  font-weight: 700;
+}
+
+/* line 25, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+.l p {
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+/* line 31, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+.con_advert {
+  background-color: #6055a5;
+  padding: 15px;
+  color: white;
+  font-weight: 400;
+  box-shadow: 0px 10px 0px -1px rgba(58, 58, 58, 0.25);
+}
+
+/* line 37, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+.con_advert span {
+  font-weight: 600;
+}
+
+/* line 40, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+.con_advert .small {
+  color: #b9b6d3;
+  font-weight: 400;
+}
+
+/* line 47, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+form {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 0px -1px rgba(58, 58, 58, 0.25);
+}
+
+/* line 51, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+form .form-group {
+  margin-top: 1rem;
+}
+
+/* line 53, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+form .form-group .form-control {
+  padding: 0.8rem 1.5rem;
+}
+
+/* line 56, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+form .form-group .invalid-feedback {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: right;
+}
+
+/* line 62, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+form button {
+  margin-top: 20px;
+  background-color: #38cc8c;
+  border-color: #3e3c49;
+  border-width: 0;
+  width: 100%;
+  padding: 15px;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0px 6px 0px -1px #2f9d6d;
+}
+
+/* line 72, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+form button:hover {
+  background-color: #2f9d6d;
+}
+
+/* line 76, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+form p {
+  padding: 10px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #b9b6d3;
+}
+
+/* line 82, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+form p .inside {
+  text-decoration: none;
+  color: #ff7a7a;
+}
+
+/* line 91, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+.was-validated input::placeholder {
+  color: #da4b59;
+}
+
+/* line 96, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+.was-validated .form-control:valid {
+  border-color: #ced4da;
+  padding-right: none;
+  background-image: none;
+  background-repeat: none;
+  background-position: none;
+  background-size: none;
+}
+
+/* line 104, ../../../Project Web/learning/Challange/ProductPreview/intro-component-with-signup-form-master/scss/style.scss */
+.was-validated .form-control:invalid {
+  border-color: #dc3545;
+  padding-right: calc(1.5em + 0.75rem);
+  background-image: url(/images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+/*# sourceMappingURL=style.css.map */
