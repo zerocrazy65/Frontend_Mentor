@@ -1,0 +1,159 @@
+$violet-bg: hsl(257, 40%, 49%);
+$soft-magenta: hsl(300, 69%, 71%);
+$opensan: "Open Sans", sans-serif;
+$poppins: "Poppins", sans-serif;
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-image: url("/images/bg-desktop.svg");
+    background-color: $violet-bg;
+    background-size: 100rem;
+}
+
+.container {
+    padding: 2rem 10rem 2rem 10rem;
+    .content {
+        padding: 0 0 2rem 0;
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            display: block;
+            width: 50%;
+        }
+        .detail {
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+            padding: 3rem;
+            gap: 2rem;
+            color: white;
+            h1 {
+                font-size: 2.3rem;
+                font-weight: 600;
+                font-family: $poppins;
+            }
+            p {
+                font-size: 1.1rem;
+                font-weight: 400;
+                font-family: $opensan;
+            }
+            button {
+                color: white;
+                font-family: $poppins;
+                padding: 1rem;
+                font-weight: 400;
+                width: 250px;
+                border-radius: 30px;
+                background-color: $soft-magenta;
+                box-shadow: 2px 12px 8px -1px rgba(0, 0, 0, 0.25);
+            }
+            button:hover {
+                transition: 0.3s;
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+.icon {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    button {
+        background-color: transparent;
+        border: 2px solid;
+        border-color: white;
+        border-radius: 50%;
+        .bx {
+            padding: 10px;
+            color: white;
+            font-size: 30px;
+        }
+        :hover {
+            color: $soft-magenta;
+        }
+    }
+    :hover {
+        border-color: $soft-magenta;
+    }
+}
+
+@media (max-width: 1400px) {
+    .container {
+        padding: 2rem 5rem 2rem 5rem;
+        .content {
+            padding: 10px;
+            margin-top: 10px;
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .container {
+        margin-top: 50px;
+        .content {
+            .detail {
+                h1 {
+                    font-size: 1.5rem;
+                }
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        .content {
+            .detail {
+                margin-left: 0;
+                h1 {
+                    font-size: 1.5rem;
+                }
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        margin-top: 0;
+        padding: 1rem;
+        img {
+            width: 12rem;
+        }
+        .content {
+            margin-top: 3rem;
+            flex-wrap: wrap;
+        }
+        .icon {
+            padding: 1rem;
+            button {
+                background-color: transparent;
+                border: 1px solid;
+                border-color: white;
+                border-radius: 50%;
+                .bx {
+                    padding: 10px;
+                    color: white;
+                    font-size: 20px;
+                }
+                :hover {
+                    color: $soft-magenta;
+                }
+            }
+            :hover {
+                border-color: $soft-magenta;
+            }
+        }
+    }
+}

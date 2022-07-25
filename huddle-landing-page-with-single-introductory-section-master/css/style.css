@@ -1,0 +1,194 @@
+/* line 5, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* line 11, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+body {
+  background-image: url("/images/bg-desktop.svg");
+  background-color: #674baf;
+  background-size: 100rem;
+}
+
+/* line 17, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+.container {
+  padding: 2rem 10rem 2rem 10rem;
+}
+
+/* line 19, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+.container .content {
+  padding: 0 0 2rem 0;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 25, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+.container .content img {
+  display: block;
+  width: 50%;
+}
+
+/* line 29, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+.container .content .detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 3rem;
+  gap: 2rem;
+  color: white;
+}
+
+/* line 36, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+.container .content .detail h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 41, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+.container .content .detail p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 46, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+.container .content .detail button {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+  font-weight: 400;
+  width: 250px;
+  border-radius: 30px;
+  background-color: #e882e8;
+  box-shadow: 2px 12px 8px -1px rgba(0, 0, 0, 0.25);
+}
+
+/* line 56, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+.container .content .detail button:hover {
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+
+/* line 63, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+.icon {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+
+/* line 67, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+.icon button {
+  background-color: transparent;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 50%;
+}
+
+/* line 72, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+.icon button .bx {
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+/* line 77, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+.icon button :hover {
+  color: #e882e8;
+}
+
+/* line 81, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+.icon :hover {
+  border-color: #e882e8;
+}
+
+@media (max-width: 1400px) {
+  /* line 87, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container {
+    padding: 2rem 5rem 2rem 5rem;
+  }
+  /* line 89, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container .content {
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* line 96, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container {
+    margin-top: 50px;
+  }
+  /* line 100, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container .content .detail h1 {
+    font-size: 1.5rem;
+  }
+  /* line 103, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container .content .detail p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  /* line 114, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container .content .detail {
+    margin-left: 0;
+  }
+  /* line 116, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container .content .detail h1 {
+    font-size: 1.5rem;
+  }
+  /* line 119, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container .content .detail p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 128, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container {
+    margin-top: 0;
+    padding: 1rem;
+  }
+  /* line 131, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container img {
+    width: 12rem;
+  }
+  /* line 134, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container .content {
+    margin-top: 3rem;
+    flex-wrap: wrap;
+  }
+  /* line 138, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container .icon {
+    padding: 1rem;
+  }
+  /* line 140, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container .icon button {
+    background-color: transparent;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 50%;
+  }
+  /* line 145, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container .icon button .bx {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  /* line 150, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container .icon button :hover {
+    color: #e882e8;
+  }
+  /* line 154, ../../../Project Web/learning/Challange/huddle-landing-page-with-single-introductory-section-master/scss/style.scss */
+  .container .icon :hover {
+    border-color: #e882e8;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
