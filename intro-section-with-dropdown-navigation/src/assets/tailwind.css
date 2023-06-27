@@ -10,6 +10,9 @@
       font-size: 16px;
       font-weight: 500;
    }
+   body {
+      background-color: #FAFAFA;
+   }
 }
 
 @layer components {
